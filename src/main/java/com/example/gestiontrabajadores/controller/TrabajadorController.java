@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/trabajadores")
+//comunicacion con el reac
 @CrossOrigin(origins = "http://localhost:3000")
 public class TrabajadorController {
     @Autowired
