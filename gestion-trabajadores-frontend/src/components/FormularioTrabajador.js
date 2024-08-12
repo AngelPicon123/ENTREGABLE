@@ -18,7 +18,7 @@ function FormularioTrabajador() {
         cargo,
         salario
       });
-      navigate('/lista'); // Navegar a la lista de trabajadores después de guardar
+      navigate(-1); // Navegar a la lista de trabajadores después de guardar
     } catch (error) {
       console.error('Error al guardar el trabajador:', error);
     }

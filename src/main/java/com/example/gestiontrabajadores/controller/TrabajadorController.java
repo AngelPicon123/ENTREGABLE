@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/trabajadores")
 //comunicacion con el reac
-@CrossOrigin(origins = "http://localhost:3004")
+@CrossOrigin(origins = "http://localhost:3005")
 public class TrabajadorController {
     @Autowired
     private TrabajadorService trabajadorService;
